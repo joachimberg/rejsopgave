@@ -1,0 +1,224 @@
+
+* {
+    font-family: 'Arvo', serif;
+}
+
+/* DET HER ER TIL DET FORSIDEN */
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #446600;
+}
+
+header img {
+    width: 30%;
+    height: 30%;
+    margin: 2%;
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#menu img{
+    width: 100%;
+}
+
+h1{
+    color: #446600;
+}
+.green{
+    background-color: #d6d6c2;
+}
+
+section{
+    text-align: center;
+}
+
+/* text over billed
+fik hjælp fra https://www.w3schools.com/code/tryit.asp?filename=FXG6VD0HXNYG
+*/
+#vietnam {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+#sri-lanka{
+     position: absolute;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+#jordan{
+     position: absolute;
+    top: 20%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+#marokko {
+     position: absolute;
+    top: 70%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+/* DET HER ER TIL DET FORSIDEN */
+
+/* DET HER ER TIL UNDERSIDER */
+
+.underside{
+    width: 100%;
+}
+.undersection{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto;
+    margin: 10%;
+    font-size: 80%;
+}
+.undersection .vp{
+    text-align: center;
+}
+.vp{
+    color: #669900;
+}
+#vimg {
+    width: 100%;   
+}
+.plan{
+    text-align: center;
+    font-size: 70%;
+    }
+.plan p{
+    color: gray;
+    }
+footer {
+    background-color: #446600;
+    text-align: center;
+    padding: 2%;
+}
+footer > p {
+    color: aliceblue;
+    font-size: 80%;
+}
+
+/* DET HER ER TIL UNDERSIDER */
+
+/* laptop */
+/*forside*/
+@media only screen and (min-width: 600px){
+    
+    
+header a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #446600;
+    grid-area: h;
+}
+
+header  img {
+    width: 15%;
+    height: 15%;
+    margin: 2%;
+}
+    
+#menu{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+     position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+#menu img{
+    width: 100%;
+}
+#vietnam {
+    position: absolute;
+    top: 38%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+#sri-lanka{
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+#jordan{
+    position: absolute;
+    top: 38%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+#marokko {
+    position: absolute;
+    top: 38%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    
+    }
+    
+    /*forside*/
+    /*underside*/
+
+.underside{
+    width: 100%;
+    
+}
+.undersection{
+
+    display: grid;
+    grid-template-columns: 70% 40%;
+    margin: 6% 0% 8% 6%;
+}
+.undersection .vp{
+    text-align: center;
+    padding: 5%;
+}
+.vp{
+    color: #669900;
+}
+#vimg {
+    width: 100%;   
+}
+.plan{
+    font-size: 70%;
+    text-align: left;
+    padding: 10%;
+    background-color: #003300;
+    }
+.plan h4{
+        color: aliceblue;
+    }
+.plan p{
+    color: gray;
+    }
+
+footer > p {
+    color: aliceblue;
+    font-size: 60%;
+}
+
+    
+}
+    
+
